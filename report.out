@@ -1,0 +1,40 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Litterature Review}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Developing websites}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Basic approach}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Using web frameworks}{subsection.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Developing mobile applications}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Basic approach}{subsection.2.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Hybrid application}{subsection.2.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Web applications}{subsection.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.3}{Use of external APIs}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{Objectives}{}% 11
+\BOOKMARK [1][-]{section.4}{Context}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Xendera company}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Xendera mobile application}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.3}{Xendera API and infrastructure}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.4}{Backoffice platform}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.5}{Xendera web application}{section.4}% 17
+\BOOKMARK [1][-]{section.5}{Methods}{}% 18
+\BOOKMARK [2][-]{subsection.5.1}{Specifications}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.2}{Work environment}{section.5}% 20
+\BOOKMARK [2][-]{subsection.5.3}{Kanban method}{section.5}% 21
+\BOOKMARK [2][-]{subsection.5.4}{Task implementation}{section.5}% 22
+\BOOKMARK [2][-]{subsection.5.5}{Code review and testing}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.6}{Validation and deployment}{section.5}% 24
+\BOOKMARK [1][-]{section.6}{Results}{}% 25
+\BOOKMARK [2][-]{subsection.6.1}{Backoffice platform}{section.6}% 26
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Adding Google Maps API support}{subsection.6.1}% 27
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Component operation}{subsection.6.1}% 28
+\BOOKMARK [3][-]{subsubsection.6.1.3}{User interface implementation}{subsection.6.1}% 29
+\BOOKMARK [2][-]{subsection.6.2}{xendera Android mobile application}{section.6}% 30
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Displaying map and brands locations}{subsection.6.2}% 31
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Creating custom Google Maps components}{subsection.6.2}% 32
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Use of external tools}{subsection.6.2}% 33
+\BOOKMARK [1][-]{section.7}{Discussion}{}% 34
+\BOOKMARK [2][-]{subsection.7.1}{Development process}{section.7}% 35
+\BOOKMARK [2][-]{subsection.7.2}{Geolocation feature}{section.7}% 36
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Back-office website}{subsection.7.2}% 37
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Mobile app}{subsection.7.2}% 38
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 39
+\BOOKMARK [1][-]{section.9}{References}{}% 40

@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>{{'GEOLOC_TITLE' | translate}}</ion-title>
+        <ion-buttons end >
+            <button ion-button icon-only clear (click)="filter(selectedFilters)">
+                <ion-icon *ngIf="filter_.isFiltered" name="options" color="app"></ion-icon>
+                <ion-icon *ngIf="!filter_.isFiltered" name="options"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <div #map id="map_canvas" [ngClass]="{'midscreen':showVouchers, 'fullscreen': !showVouchers}">
+    </div>
+    <div id="center-button" (click)="reCenter()">
+        <ion-icon name="locate"></ion-icon>
+    </div>
+    <div class="brand-logo" *ngFor="let brand of displayedBrands">
+        {{brand.logoPictureUrl}}
+    </div>
+    <div *ngIf="showVouchers === true">
+        <ion-slides spaceBetween="-15">
+            <ion-slide *ngFor="let voucher of displayedVouchers">
+                <reward-card [reward]="voucher"></reward-card>
+            </ion-slide>
+        </ion-slides>
+    </div>
+</ion-content>

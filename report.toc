@@ -1,0 +1,40 @@
+\contentsline {section}{\numberline {1}Introduction}{7}{section.1}
+\contentsline {section}{\numberline {2}Litterature Review}{8}{section.2}
+\contentsline {subsection}{\numberline {2.1}Developing websites}{8}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Basic approach}{8}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Using web frameworks}{9}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Developing mobile applications}{11}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Basic approach}{11}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Hybrid application}{12}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Web applications}{12}{subsubsection.2.2.3}
+\contentsline {subsection}{\numberline {2.3}Use of external APIs}{13}{subsection.2.3}
+\contentsline {section}{\numberline {3}Objectives}{14}{section.3}
+\contentsline {section}{\numberline {4}Context}{15}{section.4}
+\contentsline {subsection}{\numberline {4.1}Xendera company}{15}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Xendera mobile application}{15}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Xendera API and infrastructure}{16}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Backoffice platform}{16}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Xendera web application}{16}{subsection.4.5}
+\contentsline {section}{\numberline {5}Methods}{17}{section.5}
+\contentsline {subsection}{\numberline {5.1}Specifications}{17}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Work environment}{17}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Kanban method}{17}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Task implementation}{18}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Code review and testing}{19}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Validation and deployment}{19}{subsection.5.6}
+\contentsline {section}{\numberline {6}Results}{20}{section.6}
+\contentsline {subsection}{\numberline {6.1}Backoffice platform}{20}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Adding Google Maps API support}{20}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Component operation}{21}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}User interface implementation}{23}{subsubsection.6.1.3}
+\contentsline {subsection}{\numberline {6.2}xendera Android mobile application}{23}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Displaying map and brands locations}{24}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Creating custom Google Maps components}{25}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Use of external tools}{25}{subsubsection.6.2.3}
+\contentsline {section}{\numberline {7}Discussion}{26}{section.7}
+\contentsline {subsection}{\numberline {7.1}Development process}{26}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Geolocation feature}{26}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Back-office website}{26}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Mobile app}{26}{subsubsection.7.2.2}
+\contentsline {section}{\numberline {8}Conclusion}{27}{section.8}
+\contentsline {section}{\numberline {9}References}{28}{section.9}

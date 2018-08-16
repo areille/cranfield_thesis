@@ -1,0 +1,101 @@
+@import "src/styles/styles.scss";
+#xen-geolocation {
+    min-width: 800px;
+    h3 {
+        border-bottom: 1px solid;
+    }
+    #action-buttons {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .comp-div {
+        display: flex;
+        align-items: center;
+        margin: 20px 10px;
+        span {
+            padding: 10px;
+        }
+    }
+    #location-search {
+        input[type=text] {
+            padding: 6px 0 6px 12px;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            border-radius: .25rem;
+            font-size: medium;
+            width: 580px;
+        }
+    }
+    #map {
+        width: 100%;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+    .addresses {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        .address-card {
+            cursor: pointer;
+            margin: auto;
+            background-color: white;
+            min-width: 77%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 4px;
+            padding: 1em;
+            margin-bottom: .8em;
+            &.selected {
+                box-shadow: 0px 0px 6px -1px rgba(3, 230, 222, 0.75);
+                font-weight: bold;
+            }
+            .icon {
+                cursor: pointer;
+                font-size: 1.5em;
+                margin: 5px 10px;
+                &.delete-button {
+                    color: red;
+                }
+                &.add-button {
+                    color: green;
+                }
+                &.warn-button {
+                    color: yellow;
+                }
+            }
+            .buttons-wrapper {
+                display: flex;
+                .action-button {
+                    .actions-tooltip {
+                        position: absolute;
+                        margin-left: -34px;
+                        color: #fff;
+                        background: #545454;
+                        padding: 5px 10px;
+                        border-radius: 3px;
+                        font-size: 11px;
+                        text-align: center;
+                        transform: scale(0) rotate(0);
+                        transition: all .25s;
+                        opacity: 0;
+                    }
+                    &:hover span,
+                    &:focus span {
+                        transform: scale(1) rotate(0);
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    .add-button-wrapper {
+        text-align: center;
+        margin-bottom: 2em;
+        .add-button {
+            cursor: pointer;
+            color: #00ccbb;
+            font-size: 2em;
+        }
+    }
+}

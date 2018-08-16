@@ -1,0 +1,64 @@
+<toaster-container></toaster-container>
+<div id="xen-geolocation">
+    <h3> {{ 'GEOLOCATION_TITLE' | translate }} </h3>
+
+    <div id="action-buttons">
+        <div id="enable-geoloc" class="comp-div">
+            <span>{{ 'GEOLOCATION_ENABLE' | translate }}</span>
+            <ui-switch [ngModel]="geolocEnabled" (change)="enableGeolocation()"></ui-switch>
+        </div>
+    </div>
+
+    <div [ngStyle]="{'display' : geolocEnabled ? 'block' : 'none'}">
+        <div id="location-search" class="comp-div">
+            <span>{{ 'GEOLOCATION_SEARCH_ADDRESS' | translate }}</span>
+            <input id="input" type="text" [(ngModel)]="searchAddress">
+        </div>
+
+        <div class="addresses" *ngIf="selectedAddress">
+            <h4>{{ 'GEOLOCATION_SELECTED_ADDRESS' | translate }} :</h4>
+            <div class="address-card" [ngClass]="{'selected' : selectedAddress.selected}" (click)="selectAddress(selectedAddress)">
+                <span>{{ selectedAddress.formattedAddress }}</span>
+                <div class="buttons-wrapper">
+                    <div class="action-button" *ngIf="!isInList">
+                        <div class="icon ion-md-add-circle add-button" (click)="addAddress(selectedAddress)"></div>
+                        <span class="actions-tooltip">{{ 'GEOLOCATION_ADD_TO_BRAND' | translate }}</span>
+                    </div>
+
+                    <div class="action-button" *ngIf="isInList">
+                        <div class="icon ion-md-warning warn-button"></div>
+                        <span class="actions-tooltip">{{ 'GEOLOCATION_DUPLICATE' | translate }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div *ngIf="!selectedAddress">
+            <p style="font-style: italic">{{ 'GEOLOCATION_NO_SEARCH' | translate }}</p>
+        </div>
+
+        <div id="map"></div>
+        <div class="addresses" *ngIf="addresses && addresses.length">
+            <h4 *ngIf="addresses.length < 2">{{ 'GEOLOCATION_REGISTERED_ADDRESS' | translate }}</h4>
+            <h4 *ngIf="addresses.length >= 2">{{ 'GEOLOCATION_REGISTERED_ADDRESSES' | translate }}</h4>
+            <div class="address-card" *ngFor="let address of addresses" [ngClass]="{'selected' : address.selected}" (click)="selectAddress(address)">
+                <span>{{ address.formattedAddress }}</span>
+                <div class="buttons-wrapper">
+                    <div class="action-button">
+                        <div class="icon ion-md-remove-circle delete-button" (click)="removeAddress(address)"></div>
+                        <span class="actions-tooltip">{{ 'GEOLOCATION_DELETE_ADDRESS'|translate }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="empty-addresses" *ngIf="!(addresses && addresses.length)">
+            <p style="font-style: italic">{{ 'GEOLOCATION_NO_ADDRESS'|translate }}</p>
+        </div>
+
+        <div class="add-button-wrapper">
+            <div class="icon ion-md-add-circle add-button" (click)="goToSearch()"></div>
+            <span class="actions-tooltip">{{ 'GEOLOCATION_ADD' | translate }}</span>
+        </div>
+    </div>
+</div>
